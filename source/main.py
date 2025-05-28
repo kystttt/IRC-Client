@@ -1,6 +1,6 @@
 import sys
 from PyQt6.QtWidgets import QApplication
-from irc_gui import IRCWindow
+from source.irc_gui import IRCWindow
 
 
 def main():

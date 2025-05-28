@@ -1,7 +1,7 @@
 import socket
 import threading
-from replace_emotions import replace_emotions
-from irc_parser import parse_irc_line
+from source.replace_emotions import replace_emotions
+from source.irc_parser import parse_irc_line
 from PyQt6.QtCore import QObject, pyqtSignal
 
 

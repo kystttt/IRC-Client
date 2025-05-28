@@ -2,7 +2,7 @@ from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QTextEdit,
     QListWidget, QLineEdit, QLabel, QTabWidget, QMessageBox
 )
-from irc_client import IRCClient
+from source.irc_client import IRCClient
 
 
 class IRCWindow(QWidget):
