@@ -11,7 +11,7 @@ IRC Client клиент для IRC-протокола, написанный на
     pip install -r requirements.txt
 
 ##### Запуск:
-    python main.py
+    cd source python main.py
 
 ##### Тестирование:
     python -m unittest discover

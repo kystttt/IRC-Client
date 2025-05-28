@@ -112,8 +112,8 @@ class IRCWindow(QWidget):
                 return
 
             self.irc.connect(self.server, self.port, self.nick)
-            self.chat_display.append(f"Connected to {self.
-                                     server}:{self.port} as {self.nick}")
+            self.chat_display.append(
+                f"Connected to {self.server}: {self.port} as {self.nick}")
         except Exception as e:
             QMessageBox.critical(self, "Connection error", str(e))
 
